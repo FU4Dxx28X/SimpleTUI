@@ -6,7 +6,7 @@ jadi, kalo mau ngembangin lagi silahkan aja
 ## clone (termux)
 ```
 pkg update && pkg upgrade -y
-pkg i clang gcc g++ make cmake git ncurses -y
+pkg i clang make cmake git ncurses -y
 git clone https://github.com/FU4Dxx28X/SimpleTUI.git
 cd SimpleTUI
 cmake -B build && cmake --build build -j4
