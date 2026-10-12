@@ -1,4 +1,4 @@
-#include "tuilib/tuilib.h"
+#include "tuilib.h"
 #include <string>
 #include <vector>
 using std::string, std::vector;
