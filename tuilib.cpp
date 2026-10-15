@@ -4,6 +4,7 @@
 int init_tui(){
   initscr();
   start_color();
+  cbreak();
   noecho();
   curs_set(0);
   keypad(stdscr, TRUE);
